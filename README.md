@@ -12,11 +12,11 @@ Writing this tool in C provides a direct interface with system-level structures,
 *Usage:-
 1. Compile the tool:
    `bash
-   gcc memory_scan.c -o memory_scan
+   gcc memory_scan_x.c -o memory_scan_x
 
    2. Run with root privileges to ensure access to all process maps:
       bash
-      sudo ./memory_scan
+      sudo ./memory_scan_x
 
       *Educational Purpose:-
       This project is intended for educational purposes, focusing on linux internals, system programming, and security forensics.
