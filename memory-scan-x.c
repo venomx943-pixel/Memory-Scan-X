@@ -25,7 +25,7 @@ void scan_process_memory(int pid){
                     perror("Failed to open /proc");
                     return 1;
 
-                    printf("[*] Starting MemScaon-x: scanning for suspicious memory region...\n");
+                    printf("[*] Starting Memory-Scan-X: scanning for suspicious memory region...\n");
 
                     while ((entry = readdir(dp)) != NULL) {
 
